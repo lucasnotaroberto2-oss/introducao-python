@@ -1,0 +1,12 @@
+questão = 1
+pontos = 0
+while questão <= 3:
+    resposta = input(f"resposta da questão {questão}..:")
+    if questão == 1 and resposta == "b" or resposta == "B":
+        pontos = pontos + 1
+    if questão == 2 and resposta == "a" or resposta == "A":
+        pontos = pontos + 1
+    if questão == 3 and resposta == "d" or resposta == "D":
+        pontos = pontos + 1
+    questão = questão + 1
+print(f"o aluno fez {pontos} pontos") 
